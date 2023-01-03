@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+#naglowek {
+    background-color: rgb(105, 247, 138);
+    padding: 20px;
+    font-style: "Times New Roman";
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    color: white;
+}
+
+#stopka {
+    background-color:rgb(105, 247, 138);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    padding: 1%;
+    text-align: center;
+}
+
+#glowny {
+    list-style-type: none;
+    background-color: rgb(189, 229, 255);
+    width: 100%;
+    font-size: 25px;
+    margin: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 162, 167);
+}
+.a{
+    float: left;
+    flex: 3;
+}
+
+
+
+
+li:last-child {border-right-color: #fff;;}
